@@ -1,6 +1,6 @@
 print('''
 FIZZ BUZZ GAME BY ANKUSH TIWARI
-
+ 
 ''')
 
 for num in range(1,101):
