@@ -1,6 +1,7 @@
 print('''
 
-F I Z Z  B U Z Z  G A M E  B Y  A N K U S H  T I W A R I
+  F I Z Z  B U Z Z  G A M E  
+B Y  A N K U S H  T I W A R I
  
 ''')
 
