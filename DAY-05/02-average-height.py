@@ -5,7 +5,7 @@ students=input("Enter the No. of students\n")
 students=int(students)
 height=[] # list of heights 
 for i in range (1,students+1):
-    height_input=int(input(f" Enter the height of Student {i}:\n "))
+    height_input=int(input(f" Enter the height of Student {i} in cm :\n "))
     height.append(height_input)
 
 
@@ -20,4 +20,4 @@ for a in height:
 height_count=float(height_count)
 
 average = (height_count/students)
-print(f"Average height is : {round(average)}\n")
+print(f"Average height is : {round(average)} cm\n")
