@@ -11,7 +11,7 @@ what we will use for this amazing hangman project >>
     
 
 step 1: randomly choose a word from the words and assign it to the variable
-step 2: ask to user to guess the letter and assign their ans to variable >> make guess lowercase
+step 2: ask to  user to guess the letter and assign their ans to variable >> make guess lowercase
 step 3: check if the lette the user guesed is one of the letters in the chosen word
 
 step 4: create an empty list named display. for each letter in chosen word  add a "_" to display. 
