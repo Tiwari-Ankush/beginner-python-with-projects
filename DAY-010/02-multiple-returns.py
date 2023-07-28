@@ -1,4 +1,4 @@
-
+# return is the end of the function 
 
 def format_name(f_name,l_name):
     if f_name=="" or l_name=="":
