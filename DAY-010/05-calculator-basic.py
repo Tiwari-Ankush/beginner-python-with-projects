@@ -17,8 +17,6 @@ operations ={
     "/":divide
 }
 
-def funct_add (index_value):
-    operations[index_value-1]
     
 if __name__=="__main__":
     num1=int(input("Enter the first number: "))
