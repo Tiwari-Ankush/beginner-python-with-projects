@@ -31,6 +31,16 @@ if __name__=="__main__":
     operation=input("\nChoose the operator :  ")
     calculation_func=operations[operation]
 
-    answer=calculation_func(num1,num2)
-    
-    print(f"{num1} {operation} {num2} = {answer}")
+    first_answer=calculation_func(num1,num2)
+    print(f"{num1} {operation} {num2} = {first_answer}")
+
+
+
+# xtra part >>>
+    another_opn=input("Enter another operation: ")
+    num3=int(input("Enter the Next number: "))
+    calculation_func=operations[another_opn]
+
+    second_answer=calculation_func(first_answer,num3)
+    print(f"{first_answer} {another_opn} {num3} = {second_answer}")
+
