@@ -1,5 +1,6 @@
 # print vs return ??
 
+import Calculator
 
 def add(a,b):
     return a+b
@@ -19,6 +20,7 @@ operations ={
 
     
 if __name__=="__main__":
+    print(Calculator.ascii_art)
     num1=int(input("Enter the first number: "))
     num2=int(input("Enter the second number: "))
     
