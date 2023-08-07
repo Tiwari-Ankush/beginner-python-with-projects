@@ -23,7 +23,14 @@ def funct_add (index_value):
 if __name__=="__main__":
     num1=int(input("Enter the first number: "))
     num2=int(input("Enter the second number: "))
-    operation=input("enter the operation >> \nadd (+) or sub (-) or multiply (*) or divide (/)\n: ")
-    if operation=="add":
-        index=1
-        funct_add(index)
+    
+    print(f"operators are: ",end="")
+    for key in operations:
+        print(key, end=" ")
+    
+    operation=input("\nChoose the operator :  ")
+    calculation_func=operations[operation]
+
+    answer=calculation_func(num1,num2)
+    
+    print(f"{num1} {operation} {num2} = {answer}")
